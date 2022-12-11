@@ -1,0 +1,145 @@
+body {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  background: #2e3440;
+  margin: 0;
+  height: 100vh;
+}
+
+.base {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: none;
+  gap: 10px;
+  height: 700px;
+  width: 500px;
+  /* min-width: 500px; */
+  /* min-height: 700px; */
+  background: #4c566a;
+  border: 5px solid transparent;
+  border-radius: 25px;
+  box-shadow: 0px 0px 15px;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  background: #d8dee9;
+  align-self: stretch;
+  max-height: 120px;
+  flex: 1;
+  margin: 20px;
+  border: 5px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #2e3440;
+  padding-bottom: 16px;
+}
+
+.equation {
+  display: flex;
+  color: #434c5e;
+  padding: 12px;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  flex: 1;
+}
+
+.result {
+  display: flex;
+  align-items: flex-end;
+  color: #3b4252;
+  padding: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 52px;
+  flex: 2;
+}
+
+.v-space {
+  height: 30px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: stretch;
+  margin: 20px;
+  margin-bottom: auto;
+  gap: 12px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  justify-content: space-around;
+  align-items: stretch;
+  flex: none;
+}
+
+.btn {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  background: #81a1c1;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  color: #3b4252;
+  border: 5px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #2e3440;
+}
+
+.btn:hover {
+  filter: brightness(0.85);
+}
+
+.btn:active {
+  filter: brightness(1.1);
+  /* background: #8fbcbb; */
+}
+
+.equals {
+  background: #a3be8c;
+}
+
+.clear {
+  background: #bf616a;
+}
+
+.delete {
+  background: #d08770;
+}
+
+.operator {
+  background: #88c0d0;
+}
+
+.footer {
+  display: flex;
+  margin-top: auto;
+  padding: 16px;
+  font-family: "Roboto";
+  color: #b48ead;
+  gap: 9px;
+}
+
+a {
+  text-decoration: none;
+  color: #b48ead;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
